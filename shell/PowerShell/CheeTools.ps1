@@ -9,6 +9,10 @@
 #   . $PROFILE
 ###
 
+Function Chee-Help ()
+{
+    Write-Output "Supported commands: Invoke-Adb"
+}
 
 #
 # Uploads the ELF binary to the connected Android device and executes it
